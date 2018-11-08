@@ -63,119 +63,119 @@ TechStackPhysicsComponent = Ember.Component.extend(
     ])
 
     counter = 1
-    stack = Composites.stack(25, 20, 4, 6, 0, 0, (x, y) ->
-              if counter == 1
-                counter += 1
-                Bodies.rectangle(x, y, 235, 235, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/emberjs-logo.svg'
-                      url: 'http://emberjs.com/'
-                      xScale: 2
-                      yScale: 2
-                })
-              else if counter == 2
-                counter += 1
-                Bodies.circle(x, y, 105, {
-                  density: 0.0005
-                  frictionAir: 0.06
-                  restitution: 0.3
-                  friction: 0.01
-                  render:
-                    sprite:
-                      texture: 'assets/images/coffeescript-logo.svg'
-                      url: 'http://coffeescript.org/'
-                      xScale: 2
-                      yScale: 2
-                })
-              else if counter == 3
-                counter += 1
-                Bodies.circle(x, y, 105, {
-                  density: 0.0005
-                  frictionAir: 0.06
-                  restitution: 0.3
-                  friction: 0.01
-                  render:
-                    sprite:
-                      texture: 'assets/images/broccoli-logo.svg'
-                      url: 'http://broccolijs.com/'
-                      xScale: 0.85
-                      yScale: 0.85
-                })
-              else if counter == 4
-                counter += 1
-                Bodies.rectangle(x, y, 200, 200, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/html5-logo.svg'
-                      url: 'http://www.w3.org/html/'
-                      xScale: 0.4
-                      yScale: 0.4
-                })
-              else if counter == 5
-                counter += 1
-                Bodies.circle(x, y, 105, {
-                  density: 0.0005
-                  frictionAir: 0.06
-                  restitution: 0.3
-                  friction: 0.01
-                  render:
-                    sprite:
-                      texture: 'assets/images/handlebars-logo.svg'
-                      url: 'http://handlebarsjs.com/'
-                      xScale: 0.85
-                      yScale: 0.85
-                })
-              else if counter == 6
-                counter += 1
-                Bodies.rectangle(x, y, 180, 180, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/bootstrap-logo.svg'
-                      url: 'http://getbootstrap.com/'
-                      xScale: 1.35
-                      yScale: 1.35
-                })
-              else if counter == 7
-                counter += 1
-                Bodies.rectangle(x, y, 350, 100, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/jquery-logo.svg'
-                      url: 'http://jquery.com/'
-                      xScale: 1.35
-                      yScale: 1.35
-                })
-              else if counter == 8
-                counter += 1
-                Bodies.rectangle(x, y, 350, 85, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/impress-js-logo.svg'
-                      url: 'https://github.com/impress/impress.js'
-                      xScale: 1
-                      yScale: 1
-                })
-              else if counter == 9
-                counter += 1
-                Bodies.rectangle(x, y, 225, 225, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/mapbox-logo.svg'
-                      url: 'https://www.mapbox.com/'
-                      xScale: 1.15
-                      yScale: 1.15
-                })
-              else if counter == 10
-                counter += 1
-                Bodies.rectangle(x, y, 255, 180, {
-                  render:
-                    sprite:
-                      texture: 'assets/images/matter-js-logo.svg'
-                      url: 'http://brm.io/matter-js/'
-                      xScale: 0.80
-                      yScale: 0.80
-                })
+    stack = Composites.stack(25, -500, 3, 6, 0, 0, (x, y) ->
+          if counter == 1
+            counter += 1
+            Bodies.rectangle(x, y, 235, 235, {
+              render:
+                sprite:
+                  texture: 'assets/images/emberjs-logo.svg'
+                  url: 'http://emberjs.com/'
+                  xScale: 2
+                  yScale: 2
+            })
+          else if counter == 2
+            counter += 1
+            Bodies.circle(x, y, 105, {
+              density: 0.0005
+              frictionAir: 0.00
+              restitution: 0.3
+              friction: 0.01
+              render:
+                sprite:
+                  texture: 'assets/images/coffeescript-logo.svg'
+                  url: 'http://coffeescript.org/'
+                  xScale: 2
+                  yScale: 2
+            })
+          else if counter == 3
+            counter += 1
+            Bodies.circle(x, y, 105, {
+              density: 0.0005
+              frictionAir: 0.06
+              restitution: 0.3
+              friction: 0.01
+              render:
+                sprite:
+                  texture: 'assets/images/broccoli-logo.svg'
+                  url: 'http://broccolijs.com/'
+                  xScale: 0.85
+                  yScale: 0.85
+            })
+          else if counter == 4
+            counter += 1
+            Bodies.rectangle(x, y, 200, 200, {
+              render:
+                sprite:
+                  texture: 'assets/images/html5-logo.svg'
+                  url: 'http://www.w3.org/html/'
+                  xScale: 0.4
+                  yScale: 0.4
+            })
+          else if counter == 5
+            counter += 1
+            Bodies.circle(x, y, 105, {
+              density: 0.0005
+              frictionAir: 0.06
+              restitution: 0.3
+              friction: 0.01
+              render:
+                sprite:
+                  texture: 'assets/images/handlebars-logo.svg'
+                  url: 'http://handlebarsjs.com/'
+                  xScale: 0.85
+                  yScale: 0.85
+            })
+          else if counter == 6
+            counter += 1
+            Bodies.rectangle(x, y, 180, 180, {
+              render:
+                sprite:
+                  texture: 'assets/images/bootstrap-logo.svg'
+                  url: 'http://getbootstrap.com/'
+                  xScale: 1.35
+                  yScale: 1.35
+            })
+          else if counter == 7
+            counter += 1
+            Bodies.rectangle(x, y, 350, 100, {
+              render:
+                sprite:
+                  texture: 'assets/images/jquery-logo.svg'
+                  url: 'http://jquery.com/'
+                  xScale: 1.35
+                  yScale: 1.35
+            })
+          else if counter == 8
+            counter += 1
+            Bodies.rectangle(x, y, 225, 225, {
+              render:
+                sprite:
+                  texture: 'assets/images/mapbox-logo.svg'
+                  url: 'https://www.mapbox.com/'
+                  xScale: 1.15
+                  yScale: 1.15
+            })
+          else if counter == 9
+            counter += 1
+            Bodies.rectangle(x, y, 255, 180, {
+              render:
+                sprite:
+                  texture: 'assets/images/matter-js-logo.svg'
+                  url: 'http://brm.io/matter-js/'
+                  xScale: 0.80
+                  yScale: 0.80
+            })
+          else if counter == 10
+            counter += 1
+            Bodies.rectangle(x, y, 350, 85, {
+              render:
+                sprite:
+                  texture: 'assets/images/impress-js-logo.svg'
+                  url: 'https://github.com/impress/impress.js'
+                  xScale: 1
+                  yScale: 1
+            })
           )
 
     # Add all bodies to the world
