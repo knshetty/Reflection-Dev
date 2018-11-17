@@ -1,1 +1,11 @@
+{{#bs-nav type="tabs" as |nav|}}
+  {{#each tabs as |tabItem|}}
+    {{#nav.item}}
+      {{#nav.link-to tabItem.linkTo}}
+        {{tabItem.title}}
+      {{/nav.link-to}}
+    {{/nav.item}}
+  {{/each}}
+{{/bs-nav}}
+
 {{outlet}}

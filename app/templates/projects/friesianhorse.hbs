@@ -1,0 +1,27 @@
+<div class="card mb-4 shadow-sm">
+	<div class="card-header">
+		<div class="row">
+			<div class="col-md-11">
+				<h1 class="my-3 font-weight-normal">Visual DSL Tool - Client Side</h1>
+			</div>
+
+			{{#if demo}}
+				<div class="col-md-0">
+					<br>
+					{{#bs-button
+						type="link"
+						icon="fa fa-play-circle"
+						onClick=(action "fire_demo")}}
+						Demo
+					{{/bs-button}}
+				</div>
+			{{/if}}
+		</div>
+	</div>
+
+	<div class="card-body">
+		{{friesianhorse-architecture}}
+	</div>
+</div>
+
+{{outlet}}

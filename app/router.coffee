@@ -22,5 +22,15 @@ Router.map ->
       @route 'mdsd',
       @route 'dsl'
     @route 'robotics'
+  @route 'projects', ->
+    @route 'shirehorse'
+    @route 'friesianhorse'
+    @route 'hackneyhorse'
+    @route 'norfolktrotter'
+    @route 'markhor'
+    @route 'nutcracker'
+    @route 'hornet'
+    @route 'manucode'
+
 
 export default Router
