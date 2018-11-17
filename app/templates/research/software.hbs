@@ -1,4 +1,4 @@
-{{#bs-nav type="tabs" as |nav|}}
+{{#bs-nav type="pills" justified=true stacked=false as |nav|}}
   {{#each tabs as |tabItem|}}
     {{#nav.item}}
       {{#nav.link-to tabItem.linkTo}}
@@ -7,4 +7,5 @@
     {{/nav.item}}
   {{/each}}
 {{/bs-nav}}
+
 {{outlet}}

@@ -13,7 +13,14 @@ Router.map ->
   @route 'scientists'
   @route 'programmers'
   @route 'mystory'
-  @route 'research'
   @route 'projects'
+  @route 'research', ->
+    @route 'analytics', ->
+      @route 'algotrading'
+      @route 'infovis'
+    @route 'software', ->
+      @route 'mdsd',
+      @route 'dsl'
+    @route 'robotics'
 
 export default Router

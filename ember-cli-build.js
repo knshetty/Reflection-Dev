@@ -29,13 +29,26 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  // --- Image assets ---
+  let pngImages = 'app/images';
+  let researchInterest_Assests = new pickFiles(pngImages, {
+    srcDir: 'research',
+    files: ['algo.png',
+            'dsl.png',
+            'infovis.png',
+            'mdsd.png',
+            'robotics.png'
+           ],
+    destDir: '/assets/images/research'
+  });
+
   // --- Matter.js (2D physics engine) dependencies ---
   app.import('node_modules/matter-js/build/matter.js');
   app.import({
     development: 'node_modules/matter-js/build/matter-dev.js',
     production:  'node_modules/matter-js/build/matter.min.js'
   });
-  let svgImages = 'app/svgs';
+  let svgImages = 'app/images';
   let matterjsAssests = new pickFiles(svgImages, {
     srcDir: 'techstack',
     files: ['coffeescript-logo.svg',
@@ -47,9 +60,10 @@ module.exports = function(defaults) {
             'jquery-logo.svg',
             'impress-js-logo.svg',
             'mapbox-logo.svg',
-            'matter-js-logo.svg'],
-    destDir: '/assets/images'
+            'matter-js-logo.svg'
+          ],
+    destDir: '/assets/images/techstack'
   });
 
-  return new mergeTrees([app.toTree(), matterjsAssests]);
+  return new mergeTrees([app.toTree(), researchInterest_Assests, matterjsAssests]);
 };
