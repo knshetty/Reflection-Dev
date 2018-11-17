@@ -41,6 +41,19 @@ module.exports = function(defaults) {
            ],
     destDir: '/assets/images/research'
   });
+  let projects_Assests = new pickFiles(pngImages, {
+    srcDir: 'projects',
+    files: ['shirehorse_architecture.svg',
+            'friesianhorse_architecture.svg',
+            'hackneyhorse_architecture.svg',
+            'norfolktrotter_architecture.svg',
+            'markhor_architecture.svg',
+            'nutcracker_rooks_architecture.svg',
+            'hornet_architecture.svg',
+            'manucode_snailshell_architecture.svg'
+           ],
+    destDir: '/assets/images/projects'
+  });
 
   // --- Matter.js (2D physics engine) dependencies ---
   app.import('node_modules/matter-js/build/matter.js');
@@ -65,5 +78,5 @@ module.exports = function(defaults) {
     destDir: '/assets/images/techstack'
   });
 
-  return new mergeTrees([app.toTree(), researchInterest_Assests, matterjsAssests]);
+  return new mergeTrees([app.toTree(), researchInterest_Assests, projects_Assests, matterjsAssests]);
 };
