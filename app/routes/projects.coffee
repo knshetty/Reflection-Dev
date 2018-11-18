@@ -15,7 +15,7 @@ ProjectsRoute = Ember.Route.extend(
     controller.set('tabs', tabs)
 
   afterModel: ->
-    @transitionTo('projects.friesianhorse')
+    @transitionTo('projects.shirehorse')
 )
 
 export default ProjectsRoute

@@ -2,8 +2,8 @@ import Ember from 'ember'
 
 IndexRoute = Ember.Route.extend(
   redirect: ->
-    #@transitionTo('mystory')
-    @transitionTo('research')
+    @transitionTo('mystory')
+    #@transitionTo('projects')
 )
 
 export default IndexRoute
