@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Norfolktrotter_Route = Ember.Route.extend()
+
+export default Norfolktrotter_Route

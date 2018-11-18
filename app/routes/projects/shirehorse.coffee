@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-ShirehorseRoute = Ember.Route.extend()
+Shirehorse_Route = Ember.Route.extend()
 
-export default ShirehorseRoute
+export default Shirehorse_Route

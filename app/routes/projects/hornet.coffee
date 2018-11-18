@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Hornet_Route = Ember.Route.extend()
+
+export default Hornet_Route

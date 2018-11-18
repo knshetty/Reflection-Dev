@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Manucode_Route = Ember.Route.extend()
+
+export default Manucode_Route

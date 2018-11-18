@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Markhor_Route = Ember.Route.extend()
+
+export default Markhor_Route

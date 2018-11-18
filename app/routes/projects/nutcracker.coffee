@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Nutcracker_Route = Ember.Route.extend()
+
+export default Nutcracker_Route
