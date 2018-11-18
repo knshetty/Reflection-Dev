@@ -1,6 +1,6 @@
 import Ember from 'ember'
 
-FriesianhorseRoute = Ember.Route.extend(
+Friesianhorse_Route = Ember.Route.extend(
 
   setupController: (controller, model) ->
 
@@ -17,4 +17,4 @@ FriesianhorseRoute = Ember.Route.extend(
     )
 )
 
-export default FriesianhorseRoute
+export default Friesianhorse_Route
