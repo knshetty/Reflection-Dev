@@ -7,11 +7,6 @@ Router = Ember.Router.extend(
 )
 
 Router.map ->
-  # --------------------------------------------
-  # Public routes
-  # --------------------------------------------
-  @route 'scientists'
-  @route 'programmers'
   @route 'mystory'
   @route 'projects'
   @route 'research', ->
@@ -31,6 +26,5 @@ Router.map ->
     @route 'nutcracker'
     @route 'hornet'
     @route 'manucode'
-
 
 export default Router
