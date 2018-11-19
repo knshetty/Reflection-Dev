@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-DslRoute = Ember.Route.extend()
+Dsl_Route = Ember.Route.extend()
 
-export default DslRoute
+export default Dsl_Route

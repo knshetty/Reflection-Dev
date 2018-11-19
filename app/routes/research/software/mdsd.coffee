@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-MdsdRoute = Ember.Route.extend()
+Mdsd_Route = Ember.Route.extend()
 
-export default MdsdRoute
+export default Mdsd_Route

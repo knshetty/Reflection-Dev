@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-AlgotradingRoute = Ember.Route.extend()
+Algotrading_Route = Ember.Route.extend()
 
-export default AlgotradingRoute
+export default Algotrading_Route

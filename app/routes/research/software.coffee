@@ -1,6 +1,6 @@
 import Ember from 'ember'
 
-SoftwareRoute = Ember.Route.extend(
+Software_Route = Ember.Route.extend(
   setupController: (controller, model) ->
     tabs = [
       Ember.Object.create({ title: 'MDSD', linkTo: 'research.software.mdsd' })
@@ -12,4 +12,4 @@ SoftwareRoute = Ember.Route.extend(
     @transitionTo('research.software.mdsd')
 )
 
-export default SoftwareRoute
+export default Software_Route

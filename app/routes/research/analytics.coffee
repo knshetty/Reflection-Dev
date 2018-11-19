@@ -1,6 +1,6 @@
 import Ember from 'ember'
 
-AnalyticsRoute = Ember.Route.extend(
+Analytics_Route = Ember.Route.extend(
   setupController: (controller, model) ->
     tabs = [
       Ember.Object.create({ title: 'Algorithmic Trading', linkTo: 'research.analytics.algotrading' })
@@ -12,4 +12,4 @@ AnalyticsRoute = Ember.Route.extend(
     @transitionTo('research.analytics.algotrading')
 )
 
-export default AnalyticsRoute
+export default Analytics_Route

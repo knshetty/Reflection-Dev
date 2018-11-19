@@ -1,6 +1,6 @@
 import Ember from 'ember'
 
-ResearchRoute = Ember.Route.extend(
+Research_Route = Ember.Route.extend(
   setupController: (controller, model) ->
     tabs = [
       Ember.Object.create({ title: 'Big Data / Analytics', linkTo: 'research.analytics' })
@@ -13,4 +13,4 @@ ResearchRoute = Ember.Route.extend(
     @transitionTo('research.analytics')
 )
 
-export default ResearchRoute
+export default Research_Route

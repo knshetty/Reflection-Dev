@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-RoboticsRoute = Ember.Route.extend()
+Robotics_Route = Ember.Route.extend()
 
-export default RoboticsRoute
+export default Robotics_Route

@@ -1,6 +1,6 @@
 import Ember from 'ember'
 
-ProjectsRoute = Ember.Route.extend(
+Projects_Route = Ember.Route.extend(
   setupController: (controller, model) ->
     tabs = [
       Ember.Object.create({ title: 'Shire Horse - 2017', linkTo: 'projects.shirehorse' })
@@ -18,4 +18,4 @@ ProjectsRoute = Ember.Route.extend(
     @transitionTo('projects.shirehorse')
 )
 
-export default ProjectsRoute
+export default Projects_Route

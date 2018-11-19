@@ -1,3 +1,5 @@
 import Ember from 'ember'
 
-export default Ember.Route.extend()
+Mystory_Route = Ember.Route.extend()
+
+export default Mystory_Route

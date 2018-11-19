@@ -1,5 +1,5 @@
 import Ember from 'ember'
 
-InfovisRoute = Ember.Route.extend()
+Infovis_Route = Ember.Route.extend()
 
-export default InfovisRoute
+export default Infovis_Route
