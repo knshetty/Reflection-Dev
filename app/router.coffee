@@ -8,7 +8,6 @@ Router = Ember.Router.extend(
 
 Router.map ->
   @route 'mystory'
-  @route 'projects'
   @route 'research', ->
     @route 'analytics', ->
       @route 'algotrading'
