@@ -91,7 +91,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 235, 235, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/emberjs-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/emberjs-logo.svg'
                       xScale: 2
                       yScale: 2
                   url: 'https://emberjs.com/'
@@ -105,7 +105,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                   friction: 0.01
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/coffeescript-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/coffeescript-logo.svg'
                       xScale: 2
                       yScale: 2
                   url: 'https://coffeescript.org/'
@@ -119,7 +119,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                   friction: 0.01
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/broccoli-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/broccoli-logo.svg'
                       xScale: 0.85
                       yScale: 0.85
                   url: 'https://github.com/broccolijs/broccoli'
@@ -129,7 +129,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 200, 200, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/html5-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/html5-logo.svg'
                       xScale: 0.4
                       yScale: 0.4
                   url: 'https://www.w3.org/html/'
@@ -143,7 +143,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                   friction: 0.01
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/handlebars-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/handlebars-logo.svg'
                       xScale: 0.85
                       yScale: 0.85
                   url: 'https://handlebarsjs.com/'
@@ -153,7 +153,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 180, 180, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/bootstrap-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/bootstrap-logo.svg'
                       xScale: 1.35
                       yScale: 1.35
                   url: 'https://getbootstrap.com/'
@@ -163,7 +163,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 350, 100, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/jquery-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/jquery-logo.svg'
                       xScale: 1.35
                       yScale: 1.35
                   url: 'https://jquery.com/'
@@ -173,7 +173,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 225, 225, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/mapbox-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/mapbox-logo.svg'
                       xScale: 1.15
                       yScale: 1.15
                   url: 'https://www.mapbox.com/'
@@ -183,7 +183,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 255, 180, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/matter-js-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/matter-js-logo.svg'
                       xScale: 0.80
                       yScale: 0.80
                   url: 'http://brm.io/matter-js/'
@@ -193,7 +193,7 @@ TechStackPhysicsComponent = Ember.Component.extend(
                 Bodies.rectangle(x, y, 350, 85, {
                   render:
                     sprite:
-                      texture: '/assets/images/techstack/impress-js-logo.svg'
+                      texture: '/Reflection-Dev/assets/images/techstack/impress-js-logo.svg'
                       xScale: 1
                       yScale: 1
                   url: 'https://github.com/impress/impress.js'
