@@ -4,7 +4,7 @@ Friesianhorse_Route = Ember.Route.extend(
 
   setupController: (controller, model) ->
 
-    demoSPA_url = 'http://knshetty.github.io/ebook-searcher-app/'
+    demoSPA_url = 'https://knshetty.github.io/ebook-searcher-app/'
 
     # --- Check 'Demo SPA' is alive + Initialise variables ---
     Ember.$.get(demoSPA_url).done( ->
