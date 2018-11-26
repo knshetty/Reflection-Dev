@@ -10,3 +10,4 @@
 /bower_components
 
 # misc
+/package-lock.json
