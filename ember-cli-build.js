@@ -73,7 +73,8 @@ module.exports = function(defaults) {
             'jquery-logo.svg',
             'impress-js-logo.svg',
             'mapbox-logo.svg',
-            'matter-js-logo.svg'
+            'matter-js-logo.svg',
+            'snap-svg-logo.svg'
           ],
     destDir: '/assets/images/techstack'
   });

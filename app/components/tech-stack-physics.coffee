@@ -198,6 +198,16 @@ TechStackPhysicsComponent = Ember.Component.extend(
                       yScale: 1
                   url: 'https://github.com/impress/impress.js'
                 })
+              else if counter == 11
+                counter += 1
+                Bodies.rectangle(x, y, 115, 180, {
+                  render:
+                    sprite:
+                      texture: 'assets/images/techstack/snap-svg-logo.svg'
+                      xScale: 0.8
+                      yScale: 0.8
+                  url: 'http://snapsvg.io'
+                })
               )
     World.add(world, spriteStack)
 
