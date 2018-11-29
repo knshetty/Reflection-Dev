@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'reflection',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     baseURL: '/Reflection-Dev',
     EmberENV: {
       FEATURES: {
@@ -50,7 +50,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
     ENV.locationType = 'hash';
-    ENV.baseURL = '/Reflection-Dev/';
+    ENV.baseURL = '/Reflection-Dev';
   }
 
   return ENV;
