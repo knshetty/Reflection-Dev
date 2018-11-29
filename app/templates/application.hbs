@@ -113,7 +113,7 @@
           {{#bs-button onClick=(action modal.close)}}Close{{/bs-button}}
         {{/modal.footer}}
       {{/bs-modal}}
-      {{#bs-button onClick=(action (mut modal3) true)}}
+      {{#bs-button type="dark" onClick=(action (mut modal3) true)}}
         {{fa-icon "info-circle"}}
         About
       {{/bs-button}}
